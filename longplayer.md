@@ -4,4 +4,6 @@ layout: default
 
 # LongPlayer #
 
-{% for y in (1..365000) %}<div />{% endfor %}
+{% for y in (1..3650) %}
+<div></div>
+{% endfor %}
