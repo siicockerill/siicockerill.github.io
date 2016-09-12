@@ -4,10 +4,10 @@ layout: default
 
 # LongPlayer #
 
-## 10000 divs ##
+## 365000 divs ##
 
-How many divs will it load?
+How many divs will it load? 1000 years worth?
 
-{% for y in (1..10000) %}
+{% for y in (1..365000) %}
 <div></div>
 {% endfor %}
