@@ -15,8 +15,8 @@ Make a table for a year.
 {% for m in (1..12) %}
 	<tr>
 		<th>{{ m }}</th>
-		{% for d in (1..31) %}
-		<td>{{ d }}</td>
+		{% for d in (1..35) %}
+		<td>x</td>
 		{% endfor %}
 	</tr>
 {% endfor %}
