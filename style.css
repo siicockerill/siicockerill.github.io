@@ -1,6 +1,7 @@
 div {
 	display: inline-block;
+	line-height: 1px;
 	width: 1px;
 	height: 1px;
-	border: 1px solid yellow;
+	border: 1px solid red;
 }
