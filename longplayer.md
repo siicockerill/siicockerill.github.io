@@ -1,6 +1,5 @@
 ---
 layout: default
-months: ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D']
 ---
 
 # LongPlayer #
@@ -13,7 +12,7 @@ Make a table for a year.
 12 high.
 
 <table>
-{% for m in months %}
+{% for m in (1..12) %}
 	<tr>
 		<th>{{ m }}</th>
 	</tr>
